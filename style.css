@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+.continer{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 720px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.formDiv{
+    background-color: crimson;
+    height: 50%;
+    border-radius: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bmiText{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.submitInp{
+    background-color: green;
+    font-weight: bold;
+    color: wheat;
+    border-radius: 1.5rem;
+}
+.form-label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#resBmi{
+    text-align: center;
+    border-radius: 3rem;
+}
